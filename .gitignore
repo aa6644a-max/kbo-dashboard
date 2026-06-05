@@ -1,0 +1,35 @@
+# 예측 결과 파일 (서버에서 매일 생성)
+kbo_raw_*.csv
+kbo_processed_*.csv
+kbo_prediction_*.csv
+kbo_history_*.csv
+
+# 학습된 모델 (서버에서 생성)
+kbo_model.pkl
+kbo_scaler.pkl
+
+# 적중률 로그 (구버전)
+kbo_accuracy_log.json
+
+# SQLite WAL 저널 (임시 파일)
+*.db-shm
+*.db-wal
+
+# 로그 파일
+*.log
+collect_out.txt
+collect_err.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Claude Code
+.claude/
